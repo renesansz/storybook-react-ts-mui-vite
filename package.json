@@ -1,0 +1,59 @@
+{
+  "name": "react-mui-ts-storybook",
+  "homepage": "https://github.com/renesansz/storybook-react-ts-mui-vite",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/react-mui-ts-storybook.umd.cjs",
+  "module": "./dist/react-mui-ts-storybook.js",
+  "exports": {
+    ".": {
+      "import": "./dist/react-mui-ts-storybook.js",
+      "require": "./dist/react-mui-ts-storybook.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "storybook dev -p 6006",
+    "build": "tsc && vite build",
+    "sb:build": "storybook build"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@fontsource/material-icons": "^4.5.4",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.0-rc.1",
+    "@storybook/addon-interactions": "^7.0.0-rc.1",
+    "@storybook/addon-links": "^7.0.0-rc.1",
+    "@storybook/blocks": "^7.0.0-rc.1",
+    "@storybook/react": "^7.0.0-rc.1",
+    "@storybook/react-vite": "^7.0.0-rc.1",
+    "@storybook/testing-library": "^0.0.14-next.1",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "prop-types": "^15.8.1",
+    "storybook": "^7.0.0-rc.1",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0",
+    "vite-plugin-dts": "^2.1.0"
+  },
+  "keywords": [
+    "storybook",
+    "react",
+    "typescript",
+    "vite",
+    "material-ui",
+    "mui"
+  ],
+  "author": "Rene Padillo <developer@renesansz.me>"
+}
