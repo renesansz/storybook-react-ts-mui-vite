@@ -1,7 +1,7 @@
 import dts from 'vite-plugin-dts';
-import react from '@vitejs/plugin-react'
+import react from '@vitejs/plugin-react';
 import path from 'node:path';
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vite';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -30,16 +30,16 @@ export default defineConfig({
         '@emotion/styled',
         '@mui/icons-material',
         '@fontsource/roboto',
-        '@fontsource/material-icons'
+        '@fontsource/material-icons',
       ],
       output: {
         // Provide externalized dependencies as globals to the UMD build
         globals: {
           react: 'React',
           '@mui/material': '@mui/material',
-          'react-dom': 'ReactDOM'
+          'react-dom': 'ReactDOM',
         },
       },
     },
   },
-})
+});
