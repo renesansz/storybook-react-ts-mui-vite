@@ -18,11 +18,11 @@
   "scripts": {
     "dev": "storybook dev -p 6006",
     "build": "tsc && vite build",
+    "sb:build": "storybook build",
     "lint": "eslint --max-warnings=0",
     "lint:all": "eslint --max-warnings=0 .",
     "lint:fix": "eslint --fix .",
-    "format:fix": "prettier --write .",
-    "sb:build": "storybook build"
+    "format:fix": "prettier --write ."
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
