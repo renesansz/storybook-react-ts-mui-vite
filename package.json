@@ -35,13 +35,13 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@storybook/addon-essentials": "^7.0.9",
+    "@storybook/addon-essentials": "^7.5.0",
     "@storybook/addon-interactions": "^7.0.9",
     "@storybook/addon-links": "^7.0.9",
     "@storybook/addon-mdx-gfm": "^7.0.9",
     "@storybook/blocks": "^7.0.9",
     "@storybook/react": "^7.0.9",
-    "@storybook/react-vite": "^7.0.9",
+    "@storybook/react-vite": "^7.5.0",
     "@storybook/testing-library": "^0.1.0",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
@@ -62,7 +62,7 @@
     "eslint-plugin-unused-imports": "^2.0.0",
     "prettier": "2.8.4",
     "prop-types": "^15.8.1",
-    "storybook": "^7.0.9",
+    "storybook": "^7.5.0",
     "typescript": "^4.9.5",
     "vite": "^4.1.5",
     "vite-plugin-dts": "^2.1.0"
